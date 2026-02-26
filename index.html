@@ -84,17 +84,40 @@
             margin-left: 10px;
             vertical-align: middle;
         }
+           
+        .nav-buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #1e88e5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #1565c0;
+        }
+        
     </style>
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="header">
-            <!-- You can replace the text below with an actual <img> tag pointing to your logo once hosted -->
+   <div class="header">
             <div class="app-icon">ME</div>
             <h1>My Employee Management System</h1>
             <p class="tagline">The Ultimate Offline HR & Payroll Companion for Small Businesses</p>
+            
+            <div class="nav-buttons">
+                <a href="privacy_policy.html" class="btn">Privacy Policy</a>
+                <a href="terms_of_service.html" class="btn">Terms of Service</a>
+            </div>
         </div>
 
         <div class="section">
